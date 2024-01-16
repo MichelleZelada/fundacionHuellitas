@@ -63,6 +63,27 @@ body{
     padding: 20px;
 }
 
+.main .galePerros{
+    background: #FFE8D4;
+    padding: 60px 0;
+}
+
+.main .galePerros .contenedorFotos{
+    overflow: hidden;
+}
+
+.main .trabajos .contenedorFotos .fotoPerro{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .trabajos .contenedorFotos .fotoPerro{ 
+    width: 23%; /*Donde pondremos poner 4 en cada div*/
+    margin-bottom: 40px;
+}
+
 
 /* Aplicamos estilos al footer */
 footer{
