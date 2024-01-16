@@ -66,7 +66,7 @@ body{
 
 .header{
     height: 80vh !important;
-    background: url(img/portada\ \ adoptame.jpg); no-repeat center;
+    background: url(imagenes/portada\ \ adoptame.jpg); no-repeat center;
     background-size: cover;
 
 }
