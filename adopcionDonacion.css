@@ -9,8 +9,10 @@
 body{
     text-align: center;
     font-family: sans-serif;
+    font-size: 15px;
 }
 
+/* Aplicamos estilos al header */
 .head{
     display: flex;
     align-self: center;
@@ -40,7 +42,7 @@ body{
 
 .navbar a {
     display: block;
-    padding: 20px 15px;
+    padding: 15px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -50,4 +52,26 @@ body{
 
 .navbar a:hover{
     background: #E5A4CB;
+}
+
+.proceAdopcion{
+    padding: 100px 20px 20px 20px ;
+}
+
+/* Aplicamos estilos al galePerros */
+.galePerros, .infoDonacion{
+    padding: 20px;
+}
+
+
+/* Aplicamos estilos al footer */
+footer{
+    padding: 20px;
+    background: #E5A4CB;
+}
+
+div p{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
