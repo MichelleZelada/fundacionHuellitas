@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
 *{ 
@@ -10,9 +12,10 @@
 
 body{
     text-align: center;
-    font-family: sans-serif;
+    font-family:'Salsa', cursive;
+    text-align: justify;
+   
 }
-
 .head{
     display: flex;
     align-self: center;
@@ -65,42 +68,22 @@ body{
 }
 
 .header{
-    height: 80vh !important;
-    background: url(imagenes/portada\ \ adoptame.jpg); no-repeat center;
+    height: 100vh !important;
+    background: url(img/portada\ \ adoptame.jpg); no-repeat center;
     background-size: cover;
 
 }
 
-.title{
-    margin-bottom: 40px;
-    font-size: 35px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family:'Salsa', cursive; 
-}
-
 p{
-    margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 20px;
     color: #000000;
-    padding: 0 100px;
+    padding: 0 90px;
     text-align: center;
     text-align: justify;
-
-}
-.h2{
-    margin-bottom: 40px;
     font-family:'Salsa', cursive;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: justify;
-    text-align: center;
 }
 
-.ul{
-    text-align: justify;
-    text-align: center;
-}
+
 .btn:hover {
     background: none;
 }
@@ -109,80 +92,49 @@ p{
     display: flex;
 }
 
-.btn-home a{
-    margin:0 8px;
-
+.h2title{
+    text-align: center;
 }
-.content {
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.funda{
-    justify-content: center;
+.title{
+    font-family:'Salsa', cursive;
+    text-align: center;
 }
 .sau{
-    padding: 25px;
-    background: #7f055f;
+    padding: 15px;
+    background: #d9e1e6;
     justify-content: center;
 
+}
+.funda{
+    font-family:'Salsa', cursive;
+    background: #2f2f35;
+    background: url(img/row-tops-heads-cats-dogs-260nw-1034939470.jpg); no-repeat center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.content{
+    justify-content: center;
+
+}
+.img{
+ text-align: center;
+ justify-items: center;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+ gap 30px;
+ padding: 50px 0;
 }
 
 .box-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
 }
-.box-container.box{
-    height:11rem;
-    width:17rem;
-    background: #968383;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3 5rem, rgba (0, 0, 0, .5);
-    margin: 2rem;
-}
-
-.box-container .box i{
-       height: 3rem;
-       width: 3rem;
-       line-height: 3rem;
-       text-align: center;
-       border-radius: 50%;
-       color:#fff;
-       background: #9c27b0;
-       font-size: 2rem;
-       margin: 1rem 0;
-}
-
-.box-container .box h3{
-    font-size: 20px;
-    color: #9c27b0;
-}
-
-.box-container .box p{
-    padding: 0 15;
-    font-size: 16px;   
-}
-.about{
-    background: #171717;
-}
-
-
-@media(max-width: 768px;){
-    .title{
-        margin-bottom: 0;
-        font-size: 40px;
-    }
-    .sau{
-        height: 100vh;
-    }
-    .navbar{
-        display: none;
-    }
+   
+.carousel{
     
-}
- 
+    background: #cc94bd;
+} 
