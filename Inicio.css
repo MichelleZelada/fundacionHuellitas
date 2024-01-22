@@ -7,8 +7,9 @@
     padding: 0%;
     border: 0;
     font-size: 100%;
-    vertical-align: baseline;
+    
 }
+
 
 body{
     text-align: center;
@@ -63,8 +64,10 @@ body{
 
 .header{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    float: none;
 }
 
 .header{
@@ -76,8 +79,8 @@ body{
 
 p{
     font-size: 20px;
-    color: #000000;
-    padding: 0 90px;
+    color: #3a3838;
+    padding: 0 50px;
     text-align: center;
     text-align: justify;
     font-family:'Salsa', cursive;
@@ -92,12 +95,13 @@ p{
     display: flex;
 }
 
-.h2title{
+.h2.box-container{
     text-align: center;
 }
 .title{
     font-family:'Salsa', cursive;
     text-align: center;
+    justify-content: center;
 }
 .sau{
     padding: 15px;
@@ -111,6 +115,8 @@ p{
     background: url(img/row-tops-heads-cats-dogs-260nw-1034939470.jpg); no-repeat center;
     text-align: center;
     justify-content: center;
+    font-size: 18px;
+    color: rgb(97, 157, 248);
 
 }
 
@@ -126,7 +132,8 @@ p{
  display: flex;
  justify-content: center;
  gap 30px;
- padding: 50px 0;
+ padding: 0, 100;
+ width: auto;
 }
 
 .box-container{
@@ -137,4 +144,8 @@ p{
 .carousel{
     
     background: #cc94bd;
-} 
+}
+
+
+
+ 
