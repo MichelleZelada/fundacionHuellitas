@@ -21,11 +21,11 @@ body{
     display: flex;
     align-self: center;
     justify-content: space-between;
-    height: 63px;
+    height: 70px;
     background: #7f055f;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    
 }
 
 .navbar{
@@ -41,7 +41,6 @@ body{
 }
 .logo a {
     text-decoration: none;
-    
     color: #ffe8d4;
     text-transform: uppercase;
     font-size: 15px;
@@ -63,11 +62,10 @@ body{
 }
 
 .header{
-    display: flex;
+    padding: 210px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    float: none;
 }
 
 .header{
@@ -78,8 +76,8 @@ body{
 }
 
 p{
-    font-size: 20px;
-    color: #3a3838;
+    font-size: 25px;
+    color: #201c1c;
     padding: 0 50px;
     text-align: center;
     text-align: justify;
@@ -106,18 +104,24 @@ p{
 .sau{
     padding: 15px;
     background: #d9e1e6;
-    justify-content: center;
+    text-align: center;
 
 }
+.img{
+    border-radius: 4px;
+}
+
 .funda{
     font-family:'Salsa', cursive;
-    background: #2f2f35;
+    background: #5656d4;
     background: url(img/row-tops-heads-cats-dogs-260nw-1034939470.jpg); no-repeat center;
     text-align: center;
     justify-content: center;
-    font-size: 18px;
-    color: rgb(97, 157, 248);
-
+    font-size: 25px;
+   
+    padding: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #010203;
 }
 
 
@@ -147,5 +151,5 @@ p{
 }
 
 
-
+ 
  
