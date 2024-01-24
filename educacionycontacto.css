@@ -40,11 +40,45 @@
     background: #E5A4CB;
 }     //Finalizacion menu
 
+.cuidadoImpo{
+    margin: 100px;
+    background: #ffffff;
+}
+.cuidadoMascota{
+    background: #fbfbfb;
+    padding: 80px 10px 10px 10px ;
+}
+
+.contacto1 {
+    background: #decde5;
+    display: grid;
+    place-items: center;
+    margin: 7px;
+    padding: 10px 0;
+}
+
+.clearfix{
+    margin: 7px;
+}
+
+.contacto1 {
+    background: #decde5;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.contacto2 {
+    background: #372F51;
+}
+
 #social-media {
     background-color: #f3e8ee;
     padding: 10px 0; 
     display: grid;
     place-items: center;
+    margin: 7px;
 }
 
 #social-media p{
@@ -56,9 +90,18 @@
     width: 60px;
 }
 
-#footer{
+#footerMain{
     background-color: #DEC6D0;
     display: grid;
+    margin: 5px;
+}
+
+#footer{
+    background-color: #f3e8ee;
+    display: grid;
+    margin: 40px 50px 40px 50px;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .footer-img{
