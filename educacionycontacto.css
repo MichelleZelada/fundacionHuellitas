@@ -118,21 +118,21 @@ body{
 /* Redes sociales y footer */
 #social-media {
     background-color: #f3e8ee;
-    padding: 10px 0; 
+    padding: 10px 0;
     display: grid;
     place-items: center;
     padding: 50px 20px 50px 20px;
 }
 
-#social-media p{
+#social-media p {
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 30px;
     width: 100%;
-    
+
 }
 
-.social-icons{
+.social-icons {
     padding: 15px 0 0 0;
 }
 
@@ -140,14 +140,14 @@ body{
     width: 60px;
 }
 
-#footerMain{
+#footerMain {
     background-color: #DEC6D0;
     display: grid;
     width: 100%;
     padding: 50px 20px 50px 20px;
 }
 
-#footer{
+#footer {
     background-color: #f3e8ee;
     display: grid;
     margin: 40px 50px 40px 50px;
@@ -155,7 +155,7 @@ body{
     border-radius: 30px;
 }
 
-.footer-img{
+.footer-img {
     width: 100%;
 }
 
@@ -163,12 +163,12 @@ body{
     padding: 10px 0;
 }
 
-.footer-box img{
+.footer-box img {
     width: 120px;
     margin-bottom: 20px;
 }
 
-.footer-box .fa{
+.footer-box .fa {
     margin-right: 8px;
     font-size: 25px;
     height: 40px;
@@ -181,9 +181,11 @@ body{
 .footer-box .form-control {
     box-shadow: none;
     border: none;
-    border-radius: 0;
+    border-radius: 3px;
     margin-top: 25px;
-    max-width: 250px;
+    width: 250px;
+    min-height: 50px; 
+
 }
 
 .footer-box .btn-primary {
@@ -193,7 +195,20 @@ body{
     margin-top: 30px;
 }
 
-.btnStandar2{
+.footer-box  .row{
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.footer-box .col{
+    text-align: left ;
+}
+
+.textoFormulario{
+    text-align: left;
+}
+
+.btnStandar2 {
     background: #7f055f;
     border-radius: 3px;
     width: 100px;
@@ -203,14 +218,26 @@ body{
     text-decoration: none;
 }
 
-.btnStandar2:hover{
+.btnStandar2:hover {
     background: #e5a4cb;
     border-radius: 3px;
     color: #fff;
     cursor: pointer;
 }
 
+.container {
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+}
 
-.container{
-    padding: 20px 20px 20px 20px;
+.containerA{
+    color:#7f055f;
+}
+
+.containerA:hover{
+    color:#45062e;
+    font-size: 19px;
+    background: #f3e8ee;
+    border-radius: 3px;
+    padding: 5px 5px;
 }
