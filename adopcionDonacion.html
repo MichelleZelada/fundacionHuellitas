@@ -20,7 +20,6 @@
     
             <nav class="navbar">
                 <a href="Inicio.html">Inicio</a>
-                <a href="#">Sobre Nosotros</a>
                 <a href="adopcionDonacion.html">Adopciones/Donaciones</a>
                 <a href="#">Eventos</a>
                 <a href="educacionycontacto.html">Educación/Contacto</a>
@@ -31,7 +30,7 @@
     <!-- Establecemos la section principal de nuestro contenido -->
     <section class="main">
         <section class="proceAdopcion">
-            <h2>Procedimiento de Adopción</h2>
+            <h2 class="subtitulo">Procedimiento de Adopción</h2>
             <!-- Paso a paso de adopción -->
             <ol>
                 <li>Explora la galería y selecciona tu perrito.</li>
@@ -42,28 +41,140 @@
         </section>
 
         <section class="galePerros">
-            <h2>Galería de Perritos Disponibles</h2>
-            <!-- Cuadrícula de fotos y detalles de perritos -->
             <div class="contenedorFotos">
-                <div class="fotoPerro">
-                    <div class="fotoSubPerro">
-                        <img src="imagenes/perrito1.jpg" alt="Trabajo uno">
+                <h2 class="titulo">Galería de Mascotas Disponibles</h2>
+                <!-- Cuadrícula de fotos y detalles de perritos -->
+                <div class="contenedorAdopciones">
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro uno">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Kaiser</p>
+                            <p class="categoria">Valiente y fuerte, siempre dispuesto a superar desafíos.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
                     </div>
-                    <div class="descripcion">
-                        <p class="nombre">Kaiser</p>
-                        <p class="categoria">Perrito de nueve meses</p>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro dos">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Rocky</p>
+                            <p class="categoria">Líder nato, que irradia confianza y determinación.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="contenedorFotos">
-                <div class="fotoPerro">
-                    <div class="fotoSubPerro">
-                        <img src="imagenes/perrito1.jpg" alt="Trabajo uno">
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro tres">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Luna</p>
+                            <p class="categoria">Bella y cautivadora que destaca entre la multitud.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
                     </div>
-                    <div class="descripcion">
-                        <p class="nombre">Paolo</p>
-                        <p class="categoria">Perrito de nueve meses</p>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro cuatro">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Max</p>
+                            <p class="categoria">Leal y juguetón que siempre está listo para la diversión.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro cinco">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Bella</p>
+                            <p class="categoria">Luminosa y misteriosa que ilumina la noche.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro seis">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Toby</p>
+                            <p class="categoria">Amigable y sociable que hace amigos fácilmente.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro siete">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Daisy</p>
+                            <p class="categoria">Delicada pero llena de energía y vitalidad.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro ocho">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Charlie</p>
+                            <p class="categoria">Curioso y travieso, que siempre está explorando.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro nueve">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Coco</p>
+                            <p class="categoria">Fuente constante de alegría y dulzura.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro diez">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Zeus</p>
+                            <p class="categoria">Siempre irradiando felicidad y entusiasmo.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro once">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Mia</p>
+                            <p class="categoria">Reina indiscutible, elegante y con una presencia imponente.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
+                    </div>
+    
+                    <div class="fotoPerro">
+                        <div class="fotoSubPerro">
+                            <img src="imagenes/perrito1.jpg" alt="Perro doce">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Milo</p>
+                            <p class="categoria">Dispuesto a compartir alegría y afecto a su alrededor.</p>
+                            <button type="button" class="btnAdoptar" onclick="mostrarVentanaEmergente()">Adoptar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,17 +183,112 @@
         <section class="infoDonacion">
             <h2>Detalles para hacer donaciones</h2>
             <p>¡Tu ayuda es crucial para mantener el refugio en funcionamiento! Considera hacer una donación para apoyarnos.</p>
-            <a href="URL_DE_LA_PLATAFORMA_DE_DONACIONES" target="_blank">Hacer una donación</a>
+            <button type="button" class="btnDonar" onclick=" mostrarVentadaDonacion()">Donar</button>
         </section>
 
     </section>
 
-    <!-- Establecemos el footer -->
-    <footer>
-        <div>
-            <p>¡Ayúdanos a ayudar! Adopta un amigo peludo o haz una donación hoy.</p>
-        </div>
-    </footer>
+    <!-- Ventanas emergentes de formularios, que se activaran al momento de hacer click en los botones -->
+    <!-- Formulario 1 de adopcion -->
+        <div class="fondo-oscuro" id="fondoOscuro" onclick="ocultarVentanaEmergente()"></div>
+            <div class="ventana-emergente" id="ventanaEmergente">
+                <form onsubmit="return validarFormulario()">
+                    <h3>Formulario de adopción</h3>
 
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="telefono">Número de Teléfono (+503):</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="\+503[0-9]{8}" required>
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+
+                    <label for="domicilio">Domicilio:</label>
+                    <textarea id="domicilio" name="domicilio" required></textarea>
+
+                    <label for="estadoCivil">Estado Civil:</label>
+                    <select id="estadoCivil" name="estadoCivil" required>
+                        <option value="soltero">Soltero/a</option>
+                        <option value="casado">Casado/a</option>
+                        <option value="divorciado">Divorciado/a</option>
+                        <option value="viudo">Viudo/a</option>
+                    </select>
+
+                    <label for="ocupacion">Ocupación:</label>
+                    <input type="text" id="ocupacion" name="ocupacion" required>
+
+                    <label for="hobbies">Hobbies:</label>
+                    <textarea id="hobbies" name="hobbies" required></textarea>
+
+                    <label for="experienciaAnimales">¿Tiene experiencia con animales?</label>
+                    <select id="experienciaAnimales" name="experienciaAnimales" required>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label for="otrosAnimales">¿Tiene otros animales?</label>
+                    <select id="otrosAnimales" name="otrosAnimales" onchange="mostrarCantidadAnimales()">
+                        <option value="no">No</option>
+                        <option value="si">Sí</option>
+                    </select>
+
+                    <div id="cantidadAnimales" style="display: none;">
+                        <label for="cantidad">Número y Tipo de Animales:</label>
+                        <input type="text" id="cantidad" name="cantidad">
+                    </div>
+
+                    <div class="terminosCondiciones">
+                        <label>
+                            Al aceptar los términos y condiciones de la adopción, garantizo mi compromiso de brindar un hogar amoroso y responsable a la mascota, cumpliendo con sus necesidades y velando por su bienestar a lo largo de toda su vida.
+                            <input type="checkbox" id="terminosCondiciones" required>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btnAdoptar">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Formulario 2 de donar -->
+            <div class="fondo-oscuro" id="fondoOscuro" onclick="ocultarVentanaEmergente()"></div>
+            <div class="ventana-emergente" id="mostrarDonacion">
+                    <h1>Cuentas Bancarias</h1>
+                    <p>Realiza tu donación mediante la aplicación de tu banco, acá te dejamos nuestra informacion por cada banco. PD: Todas nuestras cuentas son de ahorro.</p>
+            </div>
+
+    <!-- Establecemos el script-->
+    <script>
+        function mostrarVentanaEmergente() {
+            document.getElementById('ventanaEmergente').style.display = 'block';
+            document.getElementById('fondoOscuro').style.display = 'block';
+        }
+
+        function ocultarVentanaEmergente() {
+            document.getElementById('ventanaEmergente').style.display = 'none';
+            document.getElementById('fondoOscuro').style.display = 'none';
+        }
+    
+        function mostrarCantidadAnimales() {
+            var otrosAnimales = document.getElementById('otrosAnimales');
+            var cantidadAnimales = document.getElementById('cantidadAnimales');
+    
+            cantidadAnimales.style.display = (otrosAnimales.value === 'si') ? 'block' : 'none';
+        }
+
+        function mostrarVentadaDonacion(){
+            document.getElementById('mostrarDonacion').style.display = 'block';
+            document.getElementById('fondoOscuro').style.display = 'block';
+        }
+
+        function validarFormulario() {
+            // Agregar lógica de validación aquí si es necesario
+            alert('Formulario enviado exitosamente, se comunicarán contigo mediante correo o número de telefono');
+            ocultarVentanaEmergente();
+            return false; // Evita que el formulario se envíe realmente
+        }
+    </script>
 </body>
 </html>
