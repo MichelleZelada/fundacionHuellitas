@@ -40,19 +40,27 @@
     background: #E5A4CB;
 }     
 
+/* Redes sociales y footer */
 #social-media {
     background-color: #f3e8ee;
     padding: 10px 0; 
     display: grid;
     place-items: center;
-    margin: 7px;
+    padding: 50px 20px 50px 20px;
 }
 
 #social-media p{
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 30px;
+    width: 100%;
+    
 }
+
+.social-icons{
+    padding: 15px 0 0 0;
+}
+
 .social-icons img {
     width: 60px;
 }
@@ -60,7 +68,8 @@
 #footerMain{
     background-color: #DEC6D0;
     display: grid;
-    margin: 5px;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
 }
 
 #footer{
@@ -107,4 +116,8 @@
     border: none;
     border-radius: 0;
     margin-top: 30px;
+}
+
+.container{
+    padding: 20px 20px 20px 20px;
 }
