@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
-
-*{ 
+*{
     margin: 0%;
     padding: 0%;
-    border: 0;
-    font-size: 100%;
-    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 
 body{
+    text-align: center;
     font-family: sans-serif;
-    text-align: justify;
-   
+    font-size: 16px;
+    margin: 0;
 }
+
+/* Aplicamos estilos al header */
 .head{
     display: flex;
     align-self: center;
@@ -22,6 +22,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 100;
+    padding: 0px 20px 0px 20px;
 }
 
 .navbar{
@@ -55,110 +56,18 @@ body{
     background: #E5A4CB;
 }
 
-.header{
-    padding: 210px;
+/* Estblecemos el main */
+.generalEvent{
+}
+
+.infoGeneralEvent{
+    background: #fbfbfb;
+    padding: 125px 20px 50px 20px;
+}
+
+.titulo1{
     text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.header{
-    height: 100vh !important;
-    background: url(imagenes/portada\ \ adoptame.jpg); 
-    background-size: cover;
-
-}
-
-p{
-    font-size: 25px;
-    color: #201c1c;
-    padding: 10px 50px;
-    text-align: center;
-    text-align: justify;
-    font-family:'Salsa', cursive;
-}
-
-.contentSau{
-    padding: 50px 0 50px 0;
-}
-
-.contentFunda{
-    padding: 50px 0 50px 0;
-}
-
-
-.btn:hover {
-    background: none;
-}
-
-.btn-home{
-    display: flex;
-}
-
-.carousel slide, .titulo {
-    padding: 50px 0 0 0;
-    text-align: center;
-}
-
-.h2.box-container{
-    text-align: center;
-}
-.title{
-    font-family:'Salsa', cursive;
-    text-align: center;
-    justify-content: center;
-}
-.sau{
-    padding: 15px;
-    background: #d9e1e6;
-    text-align: center;
-
-}
-.img{
-    border-radius: 4px;
-}
-
-.funda{
-    font-family:'Salsa', cursive;
-    background: #5656d4;
-    background: url(imagenes/row-tops-heads-cats-dogs-260nw-1034939470.jpg);
-    text-align: center;
-    justify-content: center;
-    font-size: 25px;
-   
-    padding: 30px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #010203;
-}
-
-
-.content{
-    justify-content: center;
-
-}
-.img{
- text-align: center;
- justify-items: center;
- box-sizing: border-box;
- display: flex;
- justify-content: center;
- gap 30px;
- padding: 0, 100;
- width: auto;
-}
-
-.box-container{
-    display: flex;
-    justify-content: center;
-}
-   
-.carousel{
-    
-    background: #cc94bd;
-}
-
-.carousel-inner{
-    padding: 50px 0px 50px 0px;
+    padding: 25px 0px 15px 0px;
 }
 
 /* Redes sociales y footer */

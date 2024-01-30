@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
@@ -14,7 +14,7 @@ body{
 }
 
 /* Aplicamos estilos al header */
-.head{
+.head {
     display: flex;
     align-self: center;
     justify-content: space-between;
@@ -25,12 +25,12 @@ body{
     padding: 0px 20px 0px 20px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     margin-right: 20px;
 }
 
-.logo{
+.logo {
     margin-left: 30px;
     padding: 20px 15px;
 }
@@ -52,47 +52,49 @@ body{
 
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: #E5A4CB;
 }
 
-.proceAdopcion{
-    padding: 125px 20px 50px 20px ;
+.proceAdopcion {
+    padding: 125px 20px 50px 20px;
 }
 
-.subtitulo{
-   padding-left: 20px;
+.subtitulo {
+    padding-left: 20px;
 }
 
-.main .galePerros{
+.main .galePerros {
     background: #ffe8d4;
     padding: 60px 0;
     padding: 50px;
 }
 
 .main .galePerros .contenedorFotos {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .main .galePerros .titulo {
     margin-bottom: 50px;
-    text-align: center; 
+    text-align: center;
 }
 
-.main .galePerros .contenedorAdopciones {    /*Empezamos a modificar la galeria de fotos*/
+.main .galePerros .contenedorAdopciones {
+    /*Empezamos a modificar la galeria de fotos*/
     display: flex;
     flex-direction: rows;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+}
 
 .main .galePerros .contenedorAdopciones .fotoPerro {
     width: 23%;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .main .galePerros .contenedorAdopciones .fotoPerro .fotoSubPerro {
     width: 100%;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .main .galePerros .contenedorAdopciones .fotoPerro .fotoSubPerro img {
@@ -101,8 +103,9 @@ body{
     border-radius: 3px;
 }
 
-.main .galePerros .contenedorAdopciones .fotoPerro .descripcion {        /*Empezamos a modificar la galeria de fotos la descripcion*/
-    text-align: center; 
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion {
+    /*Empezamos a modificar la galeria de fotos la descripcion*/
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -116,7 +119,8 @@ body{
     margin: 2.5px;
 }
 
-.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar, .ventana-emergente button {
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar,
+.ventana-emergente button {
     background: #7f055f;
     border-radius: 3px;
     width: 100%;
@@ -126,8 +130,8 @@ body{
     margin: 2.5px;
 }
 
-.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar:hover, 
-.ventana-emergente button:hover{
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar:hover,
+.ventana-emergente button:hover {
     background: #e5a4cb;
     border-radius: 3px;
     color: #fff;
@@ -136,12 +140,12 @@ body{
 
 
 /* Aplicamos estilos al detalle donaciones */
-.infoDonacion{
+.infoDonacion {
     text-align: center;
     padding: 50px 20px 50px 20px;
 }
 
-.infoDonacion .btnDonar{
+.infoDonacion .btnDonar {
     background: #e5a4cb;
     border-radius: 3px;
     width: 30%;
@@ -150,7 +154,7 @@ body{
     padding: 10px 0 10px 0;
 }
 
-.infoDonacion .btnDonar:hover{
+.infoDonacion .btnDonar:hover {
     background: #7F055F;
     border-radius: 3px;
     color: #fff;
@@ -180,7 +184,8 @@ body{
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    max-height: 70vh; /* Ajusta según sea necesario */
+    max-height: 70vh;
+    /* Ajusta según sea necesario */
     overflow-y: auto;
     width: 30%;
 }
@@ -204,28 +209,28 @@ body{
     box-sizing: border-box;
 }
 
-.ventana-emergente h3{
+.ventana-emergente h3 {
     text-align: center;
 }
 
 /* Redes sociales y footer */
 #social-media {
     background-color: #f3e8ee;
-    padding: 10px 0; 
+    padding: 10px 0;
     display: grid;
     place-items: center;
     padding: 50px 20px 50px 20px;
 }
 
-#social-media p{
+#social-media p {
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 30px;
     width: 100%;
-    
+
 }
 
-.social-icons{
+.social-icons {
     padding: 15px 0 0 0;
 }
 
@@ -233,14 +238,14 @@ body{
     width: 60px;
 }
 
-#footerMain{
+#footerMain {
     background-color: #DEC6D0;
     display: grid;
     width: 100%;
     padding: 50px 20px 50px 20px;
 }
 
-#footer{
+#footer {
     background-color: #f3e8ee;
     display: grid;
     margin: 40px 50px 40px 50px;
@@ -248,7 +253,7 @@ body{
     border-radius: 30px;
 }
 
-.footer-img{
+.footer-img {
     width: 100%;
 }
 
@@ -256,12 +261,12 @@ body{
     padding: 10px 0;
 }
 
-.footer-box img{
+.footer-box img {
     width: 120px;
     margin-bottom: 20px;
 }
 
-.footer-box .fa{
+.footer-box .fa {
     margin-right: 8px;
     font-size: 25px;
     height: 40px;
@@ -274,9 +279,11 @@ body{
 .footer-box .form-control {
     box-shadow: none;
     border: none;
-    border-radius: 0;
+    border-radius: 3px;
     margin-top: 25px;
-    max-width: 250px;
+    width: 250px;
+    min-height: 50px; 
+
 }
 
 .footer-box .btn-primary {
@@ -286,6 +293,49 @@ body{
     margin-top: 30px;
 }
 
-.container{
-    padding: 20px 20px 20px 20px;
+.footer-box  .row{
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.footer-box .col{
+    text-align: left ;
+}
+
+.textoFormulario{
+    text-align: left;
+}
+
+.btnStandar2 {
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.btnStandar2:hover {
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+}
+
+.containerA{
+    color:#7f055f;
+}
+
+.containerA:hover{
+    color:#45062e;
+    font-size: 19px;
+    background: #f3e8ee;
+    border-radius: 3px;
+    padding: 5px 5px;
 }

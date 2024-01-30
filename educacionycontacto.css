@@ -1,3 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
 /* Aplicamos estilos al header para el menu, no tocar*/
 .head{
     display: flex;
@@ -38,26 +53,86 @@
 
 .navbar a:hover{
     background: #E5A4CB;
-}     
+}  
 
-/* Redes sociales y footer */
-#social-media {
-    background-color: #f3e8ee;
-    padding: 10px 0; 
+/* Main contenido cuidado y consejos */
+.cuidadoImpo{
+    background: #ffffff;
+}
+
+.cuidadoMascota{
+    background: #fbfbfb;
+    padding: 125px 20px 50px 20px ;
+}
+
+.contacto1 {
+    background: #decde5;
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.clearfix{
+    margin: 7px;
+    padding: 50px 20px 50px 20px;
+}
+
+.contacto1 {
+    background: #decde5;
     display: grid;
     place-items: center;
     padding: 50px 20px 50px 20px;
 }
 
-#social-media p{
+.contacto1 h1{
+    padding: 0px 0px 25px 0px;
+}
+
+.botonURL{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnStandar{
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+
+.btnStandar:hover{
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contacto2 {
+    background: #372F51;
+}
+
+/* Redes sociales y footer */
+#social-media {
+    background-color: #f3e8ee;
+    padding: 10px 0;
+    display: grid;
+    place-items: center;
+    padding: 50px 20px 50px 20px;
+}
+
+#social-media p {
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 30px;
     width: 100%;
-    
+
 }
 
-.social-icons{
+.social-icons {
     padding: 15px 0 0 0;
 }
 
@@ -65,14 +140,14 @@
     width: 60px;
 }
 
-#footerMain{
+#footerMain {
     background-color: #DEC6D0;
     display: grid;
     width: 100%;
     padding: 50px 20px 50px 20px;
 }
 
-#footer{
+#footer {
     background-color: #f3e8ee;
     display: grid;
     margin: 40px 50px 40px 50px;
@@ -80,7 +155,7 @@
     border-radius: 30px;
 }
 
-.footer-img{
+.footer-img {
     width: 100%;
 }
 
@@ -88,12 +163,12 @@
     padding: 10px 0;
 }
 
-.footer-box img{
+.footer-box img {
     width: 120px;
     margin-bottom: 20px;
 }
 
-.footer-box .fa{
+.footer-box .fa {
     margin-right: 8px;
     font-size: 25px;
     height: 40px;
@@ -106,9 +181,11 @@
 .footer-box .form-control {
     box-shadow: none;
     border: none;
-    border-radius: 0;
+    border-radius: 3px;
     margin-top: 25px;
-    max-width: 250px;
+    width: 250px;
+    min-height: 50px; 
+
 }
 
 .footer-box .btn-primary {
@@ -118,6 +195,49 @@
     margin-top: 30px;
 }
 
-.container{
-    padding: 20px 20px 20px 20px;
+.footer-box  .row{
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.footer-box .col{
+    text-align: left ;
+}
+
+.textoFormulario{
+    text-align: left;
+}
+
+.btnStandar2 {
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.btnStandar2:hover {
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+}
+
+.containerA{
+    color:#7f055f;
+}
+
+.containerA:hover{
+    color:#45062e;
+    font-size: 19px;
+    background: #f3e8ee;
+    border-radius: 3px;
+    padding: 5px 5px;
 }
