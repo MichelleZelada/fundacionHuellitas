@@ -9,7 +9,8 @@
 body{
     text-align: center;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    margin: 0;
 }
 
 /* Aplicamos estilos al header */
@@ -21,6 +22,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 100;
+    padding: 0px 20px 0px 20px;
 }
 
 .navbar{
@@ -55,44 +57,235 @@ body{
 }
 
 .proceAdopcion{
-    padding: 100px 20px 20px 20px ;
+    padding: 125px 20px 50px 20px ;
 }
 
-/* Aplicamos estilos al galePerros */
-.galePerros, .infoDonacion{
-    padding: 20px;
+.subtitulo{
+   padding-left: 20px;
 }
 
 .main .galePerros{
-    background: #FFE8D4;
+    background: #ffe8d4;
     padding: 60px 0;
+    padding: 50px;
 }
 
-.main .galePerros .contenedorFotos{
-    overflow: hidden;
+.main .galePerros .contenedorFotos {
+    overflow: hidden; 
 }
 
-.main .trabajos .contenedorFotos .fotoPerro{ 
+.main .galePerros .titulo {
+    margin-bottom: 50px;
+    text-align: center; 
+}
+
+.main .galePerros .contenedorAdopciones {    /*Empezamos a modificar la galeria de fotos*/
     display: flex;
-    flex-direction: row;
+    flex-direction: rows;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; }
+
+.main .galePerros .contenedorAdopciones .fotoPerro {
+    width: 23%;
+    margin-bottom: 40px; 
 }
 
-.main .trabajos .contenedorFotos .fotoPerro{ 
-    width: 23%; /*Donde pondremos poner 4 en cada div*/
-    margin-bottom: 40px;
+.main .galePerros .contenedorAdopciones .fotoPerro .fotoSubPerro {
+    width: 100%;
+    margin-bottom: 10px; 
 }
 
-
-/* Aplicamos estilos al footer */
-footer{
-    padding: 20px;
-    background: #E5A4CB;
+.main .galePerros .contenedorAdopciones .fotoPerro .fotoSubPerro img {
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px;
 }
 
-div p{
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion {        /*Empezamos a modificar la galeria de fotos la descripcion*/
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .nombre {
+    font-weight: 700;
+    margin: 2.5px;
+}
+
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .categoria {
+    font-size: 14px;
+    margin: 2.5px;
+}
+
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar, .ventana-emergente button {
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100%;
     color: #fff;
-    padding: 10px;
+    border: none;
+    padding: 10px 0 10px 0;
+    margin: 2.5px;
+}
+
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar:hover, 
+.ventana-emergente button:hover{
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Aplicamos estilos al detalle donaciones */
+.infoDonacion{
     text-align: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.infoDonacion .btnDonar{
+    background: #e5a4cb;
+    border-radius: 3px;
+    width: 30%;
+    color: #fff;
+    border: none;
+    padding: 10px 0 10px 0;
+}
+
+.infoDonacion .btnDonar:hover{
+    background: #7F055F;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para el formulario de ventana emergente */
+.fondo-oscuro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.ventana-emergente {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 70vh; /* Ajusta según sea necesario */
+    overflow-y: auto;
+    width: 30%;
+}
+
+.ventana-emergente form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ventana-emergente label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ventana-emergente input,
+.ventana-emergente select,
+.ventana-emergente textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.ventana-emergente h3{
+    text-align: center;
+}
+
+/* Redes sociales y footer */
+#social-media {
+    background-color: #f3e8ee;
+    padding: 10px 0; 
+    display: grid;
+    place-items: center;
+    padding: 50px 20px 50px 20px;
+}
+
+#social-media p{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+.social-icons{
+    padding: 15px 0 0 0;
+}
+
+.social-icons img {
+    width: 60px;
+}
+
+#footerMain{
+    background-color: #DEC6D0;
+    display: grid;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+}
+
+#footer{
+    background-color: #f3e8ee;
+    display: grid;
+    margin: 40px 50px 40px 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box {
+    padding: 10px 0;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.container{
+    padding: 20px 20px 20px 20px;
 }

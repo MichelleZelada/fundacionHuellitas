@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
 *{ 
@@ -13,7 +11,7 @@
 
 body{
     text-align: center;
-    font-family:'Salsa', cursive;
+    font-family: sans-serif;
     text-align: justify;
    
 }
@@ -75,10 +73,18 @@ body{
 p{
     font-size: 25px;
     color: #201c1c;
-    padding: 0 50px;
+    padding: 10px 50px;
     text-align: center;
     text-align: justify;
     font-family:'Salsa', cursive;
+}
+
+.contentSau{
+    padding: 50px 0 50px 0;
+}
+
+.contentFunda{
+    padding: 50px 0 50px 0;
 }
 
 
@@ -88,6 +94,11 @@ p{
 
 .btn-home{
     display: flex;
+}
+
+.carousel slide, .titulo {
+    padding: 50px 0 0 0;
+    text-align: center;
 }
 
 .h2.box-container{
@@ -147,6 +158,88 @@ p{
     background: #cc94bd;
 }
 
+.carousel-inner{
+    padding: 50px 0px 50px 0px;
+}
 
- 
- 
+/* Redes sociales y footer */
+#social-media {
+    background-color: #f3e8ee;
+    padding: 10px 0; 
+    display: grid;
+    place-items: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#social-media p{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+.social-icons{
+    padding: 15px 0 0 0;
+}
+
+.social-icons img {
+    width: 60px;
+}
+
+#footerMain{
+    background-color: #DEC6D0;
+    display: grid;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+}
+
+#footer{
+    background-color: #f3e8ee;
+    display: grid;
+    margin: 40px 50px 40px 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box {
+    padding: 10px 0;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.container{
+    padding: 20px 20px 20px 20px;
+}

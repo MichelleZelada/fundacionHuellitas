@@ -38,27 +38,46 @@
 
 .navbar a:hover{
     background: #E5A4CB;
-}     //Finalizacion menu
+}     
 
+/* Redes sociales y footer */
 #social-media {
     background-color: #f3e8ee;
     padding: 10px 0; 
     display: grid;
     place-items: center;
+    padding: 50px 20px 50px 20px;
 }
 
 #social-media p{
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 30px;
+    width: 100%;
+    
 }
+
+.social-icons{
+    padding: 15px 0 0 0;
+}
+
 .social-icons img {
     width: 60px;
 }
 
-#footer{
+#footerMain{
     background-color: #DEC6D0;
     display: grid;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+}
+
+#footer{
+    background-color: #f3e8ee;
+    display: grid;
+    margin: 40px 50px 40px 50px;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .footer-img{
@@ -99,3 +118,6 @@
     margin-top: 30px;
 }
 
+.container{
+    padding: 20px 20px 20px 20px;
+}
