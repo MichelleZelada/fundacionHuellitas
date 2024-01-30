@@ -240,6 +240,23 @@ p{
     margin-top: 30px;
 }
 
+.btnStandar2{
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.btnStandar2:hover{
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .container{
     padding: 20px 20px 20px 20px;
 }

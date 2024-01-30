@@ -38,7 +38,67 @@
 
 .navbar a:hover{
     background: #E5A4CB;
-}     
+}  
+
+/* Main contenido cuidado y consejos */
+.cuidadoImpo{
+    background: #ffffff;
+}
+
+.cuidadoMascota{
+    background: #fbfbfb;
+    padding: 125px 20px 50px 20px ;
+}
+
+.contacto1 {
+    background: #decde5;
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.clearfix{
+    margin: 7px;
+    padding: 50px 20px 50px 20px;
+}
+
+.contacto1 {
+    background: #decde5;
+    display: grid;
+    place-items: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.contacto1 h1{
+    padding: 0px 0px 25px 0px;
+}
+
+.botonURL{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnStandar{
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+
+.btnStandar:hover{
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contacto2 {
+    background: #372F51;
+}
 
 /* Redes sociales y footer */
 #social-media {
@@ -117,6 +177,24 @@
     border-radius: 0;
     margin-top: 30px;
 }
+
+.btnStandar2{
+    background: #7f055f;
+    border-radius: 3px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.btnStandar2:hover{
+    background: #e5a4cb;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
 
 .container{
     padding: 20px 20px 20px 20px;
