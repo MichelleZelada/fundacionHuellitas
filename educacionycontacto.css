@@ -1,20 +1,52 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
-    margin: 0;
 }
 
-/* Aplicamos estilos al header para el menu, no tocar*/
-.head{
+.marginPaddingStandar {
+    padding: 50px 40px 50px 40px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+/*.parteSuperior{
+    margin-top: 0px;
+    margin-bottom: 50px;
+} */
+
+/* Aplicamos estilos standar a respetar */
+.textoGeneralTitulo {
+    padding: 0 40px 0 40pxpx;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    /* font-family:'Salsa', cursive; */
+    font-family: sans-serif;
+    font-weight: bold;
+    /* Aplica negrita */
+    /*font-style: italic;  Aplica cursiva */
+    /*text-decoration: underline;  Aplica subrayado */
+    text-align: center;
+    justify-content: center;
+}
+
+.correccionTitulo {
+    padding-top: 10px;
+}
+
+/* Aplicamos estilos al header */
+.head {
     display: flex;
     align-self: center;
     justify-content: space-between;
@@ -24,21 +56,29 @@ body{
     z-index: 100;
 }
 
-.navbar{
-    display: flex;
-    margin-right: 20px;
+.correcionHeaderFooter {
+    padding: 10px 80px 10px 80px;
 }
 
-.logo{
-    margin-left: 30px;
-    padding: 20px 15px;
+.navbar {
+    display: flex;
+    margin-right: 80px;
+}
+
+.logo {
+    padding-left: 80px;
+    padding-top: 15px;
+
 }
 
 .logo a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 15px;
+}
+
+.logo .logoImg {
+    padding-right: 15px;
 }
 
 .navbar a {
@@ -47,22 +87,34 @@ body{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
-
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: #E5A4CB;
-}  
+}
+
+.navbar a:active {
+    color: #e5a4cb;
+    background: #45062e;
+}
 
 /* Main contenido cuidado y consejos */
-.cuidadoImpo{
+.cuidadoImpo {
     background: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
-.cuidadoMascota{
-    background: #fbfbfb;
-    padding: 125px 20px 50px 20px ;
+.cuidado{
+    border: none;
+}
+
+.cuidadoMascota {
+    text-align: center;
+}
+
+.correccionTituloImportancia{
+    padding-bottom: 6px;
 }
 
 .contacto1 {
@@ -73,7 +125,7 @@ body{
     width: 100%;
 }
 
-.clearfix{
+.clearfix {
     margin: 7px;
     padding: 50px 20px 50px 20px;
 }
@@ -85,16 +137,16 @@ body{
     padding: 50px 20px 50px 20px;
 }
 
-.contacto1 h1{
+.contacto1 h1 {
     padding: 0px 0px 25px 0px;
 }
 
-.botonURL{
+.botonURL {
     text-align: center;
     margin-top: 10px;
 }
 
-.btnStandar{
+.btnStandar {
     background: #7f055f;
     border-radius: 3px;
     width: 100px;
@@ -104,7 +156,7 @@ body{
     text-decoration: none;
 }
 
-.btnStandar:hover{
+.btnStandar:hover {
     background: #e5a4cb;
     border-radius: 3px;
     color: #fff;
@@ -125,8 +177,8 @@ body{
 }
 
 #social-media p {
-    font-size: 26px;
-    font-weight: 500;
+    /* font-size: 26px;
+    font-weight: 500; */
     margin-bottom: 30px;
     width: 100%;
 
@@ -145,14 +197,15 @@ body{
     display: grid;
     width: 100%;
     padding: 50px 20px 50px 20px;
+    text-align: left;
 }
 
 #footer {
     background-color: #f3e8ee;
     display: grid;
-    margin: 40px 50px 40px 50px;
+    margin: 40px 50px 70px 50px;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .footer-img {
@@ -169,8 +222,8 @@ body{
 }
 
 .footer-box .fa {
-    margin-right: 8px;
-    font-size: 25px;
+    /* margin-right: 8px;
+    font-size: 25px; */
     height: 40px;
     width: 40px;
     text-align: center;
@@ -184,7 +237,7 @@ body{
     border-radius: 3px;
     margin-top: 25px;
     width: 250px;
-    min-height: 50px; 
+    min-height: 50px;
 
 }
 
@@ -195,26 +248,55 @@ body{
     margin-top: 30px;
 }
 
-.footer-box  .row{
+.footer-box .row {
     text-align: center;
     padding: 10px 0 15px 0;
 }
 
-.footer-box .col{
-    text-align: left ;
+.footer-box .col {
+    text-align: left;
 }
 
-.textoFormulario{
+.icones {
+    padding-right: 10px;
+}
+
+.pFooter1 {
+    margin-left: 80px;
+}
+
+.pFooter2 {
+    margin-right: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    background: #7F055F;
+}
+
+.textoFooterColor {
+    color: #fff;
+}
+
+.textoFormulario {
     text-align: left;
 }
 
 .btnStandar2 {
+    display: flex;
+    justify-content: center;
     background: #7f055f;
     border-radius: 3px;
-    width: 100px;
+    width: 25%;
     color: #fff;
     border: none;
     padding: 10px 0px 10px 0px;
+    max-width: 200px;
+    /*Limita el ancho máximo del botón */
+    min-width: 100px;
     text-decoration: none;
 }
 
@@ -225,19 +307,32 @@ body{
     cursor: pointer;
 }
 
-.container {
-    padding: 20px 40px 20px 40px;
-    text-align: left;
+.btnStandar2:active {
+    color: #e5a4cb;
+    background: #45062e;
 }
 
-.containerA{
-    color:#7f055f;
+.btnContainer {
+    display: flex;
+    justify-content: center;
 }
 
-.containerA:hover{
-    color:#45062e;
-    font-size: 19px;
-    background: #f3e8ee;
-    border-radius: 3px;
-    padding: 5px 5px;
+.btnForm {
+    margin-top: 10px;
+
+}
+
+.containerTextoA {
+    color: #fff;
+}
+
+.containerTextoA:hover {
+    color: #fff;
+    background: #e5a4cb;
+    padding: 12px;
+}
+
+.containerTextoA:active {
+    color: #e5a4cb;
+    background: #45062e;
 }

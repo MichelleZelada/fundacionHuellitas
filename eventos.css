@@ -1,20 +1,21 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
     margin: 0%;
     padding: 0%;
     -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     margin: 0;
 }
-
 /* Aplicamos estilos al header */
-.head{
+.head {
     display: flex;
     align-self: center;
     justify-content: space-between;
@@ -25,21 +26,24 @@ body{
     padding: 0px 20px 0px 20px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     margin-right: 20px;
 }
 
-.logo{
+.logo {
     margin-left: 30px;
-    padding: 20px 15px;
+    padding: 21px 20px 0 15px;
 }
 
 .logo a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 15px;
+}
+
+.logo .logoImg{
+    padding-right: 15px;
 }
 
 .navbar a {
@@ -48,15 +52,20 @@ body{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
-
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: #E5A4CB;
+    border-radius: 3px;
 }
 
-/* Estblecemos el main */
+.navbar a:active {
+    color: #e5a4cb;
+    background: #45062e;
+    border-radius: 3px;
+}
+
+/* Main */
 .generalEvent{
 }
 
@@ -80,8 +89,8 @@ body{
 }
 
 #social-media p {
-    font-size: 26px;
-    font-weight: 500;
+    /* font-size: 26px;
+    font-weight: 500; */
     margin-bottom: 30px;
     width: 100%;
 
@@ -100,6 +109,7 @@ body{
     display: grid;
     width: 100%;
     padding: 50px 20px 50px 20px;
+    text-align: left;
 }
 
 #footer {
@@ -107,7 +117,7 @@ body{
     display: grid;
     margin: 40px 50px 40px 50px;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .footer-img {
@@ -124,8 +134,8 @@ body{
 }
 
 .footer-box .fa {
-    margin-right: 8px;
-    font-size: 25px;
+    /* margin-right: 8px;
+    font-size: 25px; */
     height: 40px;
     width: 40px;
     text-align: center;
@@ -156,7 +166,11 @@ body{
 }
 
 .footer-box .col{
-    text-align: left ;
+    text-align: left;
+}
+
+.icones{
+    padding-right: 10px;
 }
 
 .textoFormulario{
@@ -164,12 +178,16 @@ body{
 }
 
 .btnStandar2 {
+    display: flex;
+    justify-content: center;
     background: #7f055f;
     border-radius: 3px;
-    width: 100px;
+    width: 25%;
     color: #fff;
     border: none;
     padding: 10px 0px 10px 0px;
+    max-width: 200px;    /*Limita el ancho máximo del botón */
+    min-width: 100px;
     text-decoration: none;
 }
 
@@ -178,6 +196,16 @@ body{
     border-radius: 3px;
     color: #fff;
     cursor: pointer;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btnForm{
+    margin-top: 10px;
+
 }
 
 .container {
@@ -191,7 +219,7 @@ body{
 
 .containerA:hover{
     color:#45062e;
-    font-size: 19px;
+    /* font-size: 19px; */
     background: #f3e8ee;
     border-radius: 3px;
     padding: 5px 5px;
