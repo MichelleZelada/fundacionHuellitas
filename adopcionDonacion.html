@@ -9,23 +9,20 @@
     <title>Fundación Huellitas</title>
     <link rel="stylesheet" href="adopcionDonacion.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2d389385c9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <!-- Realizamos menu/header -->
     <header>
         <div class="head">
             <div class="logo">
-                <a href="#"><img src="imagenes/logo1.png" alt="logoMenu">Fundación Huellitas</a>
+                <a href="Inicio.html"><img src="imagenes/logo1.png" alt="logoMenu" class="logoImg">Fundación Huellitas</a>
             </div>
-
-            <nav class="navbar">
+            <nav class="navbar card-header">
                 <a href="Inicio.html">Inicio</a>
                 <a href="adopcionDonacion.html">Adopciones/Donaciones</a>
-                <a href="eventos.html">Eventos</a>
                 <a href="educacionycontacto.html">Educación/Contacto</a>
             </nav>
         </div>
@@ -33,225 +30,286 @@
 
     <!-- Establecemos la section principal de nuestro contenido -->
     <section class="main">
-        <section class="proceAdopcion">
-            <h2 class="subtitulo">PROCEDIMIENTO DE ADOPCIÓN</h2>
-            <!-- Paso a paso de adopción -->
-            <ol>
-                <li>Explora la galería y selecciona tu perrito.</li>
-                <li>Solicita tu formulario de adopción.</li>
-                <li>Entrevista y encuentro con el perrito.</li>
-                <li>Adopción final y guía de cuidado post-adopción.</li>
-            </ol>
-        </section>
+        <section class="proceAdopcion marginPaddingStandar">
+            <div class="marginPaddingStandar correcionDivProcediAdop">
+                <div class="marginPaddingStandar correccionDivProcedimiento">
+                    <h1 class="title card-title">PROCEDIMIENTO DE ADOPCIÓN</h1>
+                    <!-- Paso a paso de adopción -->
+                    <p class="card-text ">La adopción es un proceso donde una persona o familia acoge a un animal
+                        necesitado, brindándole un hogar amoroso y cuidados. Este acto implica responsabilidad,
+                        compromiso y afecto hacia el animal adoptado, ofreciéndole una segunda oportunidad en la vida.
+                        Al adoptar, se crea un vínculo especial entre el adoptante y la mascota, enriqueciendo ambas
+                        vidas. Además, la adopción contribuye a reducir la sobrepoblación animal y fomenta la tenencia
+                        responsable de mascotas. Es un gesto significativo que promueve el bienestar animal y fortalece
+                        la comunidad.</p>
+                </div>
 
-        <section class="galePerros">
-            <div class="contenedorFotos">
-                <h2 class="titulo">Galería de Mascotas Disponibles</h2>
-                <!-- Cuadrícula de fotos y detalles de perritos -->
-                <div class="contenedorAdopciones">
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro uno">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Kaiser</p>
-                            <p class="categoria">Valiente y fuerte, siempre dispuesto a superar desafíos.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
 
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro dos">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Rocky</p>
-                            <p class="categoria">Líder nato, que irradia confianza y determinación.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
+                <div class="marginPaddingStandar correccionDivProcedimientoTexto">
 
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro tres">
+                    <p class="card-text ">De esta manera, se tiene los siguientes pasos para adoptar a tu nuevo amigo con nosotros: </p>
+                    
+                        <div class="listaAdopcion">
+                            <ol>
+                                <li >Explora la galería y selecciona tu perrito.</li>
+                                <li >Solicita tu formulario de adopción.</li>
+                                <li >Entrevista y encuentro con el perrito.</li>
+                                <li>Adopción final y guía de cuidado post-adopción.</li>
+                            </ol>
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Luna</p>
-                            <p class="categoria">Bella y cautivadora que destaca entre la multitud.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
+                    
+                    <p class="card-text">La adopción de una mascota es una elección que va más allá de solo conseguir un nuevo compañero. Es un gesto de compasión y responsabilidad que brinda a un animal desamparado la posibilidad de encontrar un hogar amoroso y seguro. Optar por adoptar no solo implica cambiar la vida de un animal, sino también contribuir a mitigar el problema de la sobrepoblación en los refugios y promover una tenencia consciente de mascotas. Es una experiencia enriquecedora que crea lazos profundos y duraderos entre la mascota y su nuevo dueño, llenos de afecto y compañerismo. Si quieres más información sobre el cuidado o sobre nosotros, presiona el botón.</p>
+                    <div class="botonURL">
+                        <a href="educacionycontacto.html" class="btnStandar">EDUCACIÓN/CONTACTO</a>
+                        <!-- <button type="button" class="btn btn-primary">ADOPTAME</button> -->
                     </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro cuatro">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Max</p>
-                            <p class="categoria">Leal y juguetón que siempre está listo para la diversión.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro cinco">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Bella</p>
-                            <p class="categoria">Luminosa y misteriosa que ilumina la noche.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro seis">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Toby</p>
-                            <p class="categoria">Amigable y sociable que hace amigos fácilmente.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro siete">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Daisy</p>
-                            <p class="categoria">Delicada pero llena de energía y vitalidad.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro ocho">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Charlie</p>
-                            <p class="categoria">Curioso y travieso, que siempre está explorando.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro nueve">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Coco</p>
-                            <p class="categoria">Fuente constante de alegría y dulzura.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro diez">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Zeus</p>
-                            <p class="categoria">Siempre irradiando felicidad y entusiasmo.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro once">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Mia</p>
-                            <p class="categoria">Reina indiscutible, elegante y con una presencia imponente.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
-
-                    <div class="fotoPerro">
-                        <div class="fotoSubPerro">
-                            <img src="imagenes/perrito1.jpg" alt="Perro doce">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Milo</p>
-                            <p class="categoria">Dispuesto a compartir alegría y afecto a su alrededor.</p>
-                            <button type="button" class="btnAdoptar"
-                                onclick="mostrarVentanaEmergente()">Adoptar</button>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </section>
 
+        <section class="galePerros">
+            <div class="marginPaddingStandar">
+                <div class="contenedorFotos">
+                    <h1 class="title card-title correccionTituloMascotas">MASCOTAS DISPONIBLES</h1>
+                    <!-- Cuadrícula de fotos y detalles de perritos -->
+                    <div class="contenedorAdopciones">
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota1.jpg" alt="Perro uno">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Kaiser</p>
+                                <p class="categoria card-text">Valiente y fuerte, siempre dispuesto a superar desafíos.
+                                </p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota14.jpg" alt="Perro dos">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Pelos</p>
+                                <p class="categoria card-text">Líder nato, que irradia confianza y determinación.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota15.jpg" alt="Perro tres">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Luna</p>
+                                <p class="categoria card-text">Bella y cautivadora que destaca entre la multitud.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota4.jpg" alt="Perro cuatro">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Max</p>
+                                <p class="categoria card-text">Leal y juguetón que siempre está listo para la diversión.
+                                </p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota5.jpg" alt="Perro cinco">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Bella</p>
+                                <p class="categoria card-text">Luminosa y misteriosa que ilumina la noche.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota6.jpg" alt="Perro seis">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Pigglet</p>
+                                <p class="categoria card-text">Amigable y sociable que hace amigos fácilmente.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota7.jpg" alt="Perro siete">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Daisy</p>
+                                <p class="categoria card-text">Delicada pero llena de energía y vitalidad.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota8.jpg" alt="Perro ocho">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Charlie</p>
+                                <p class="categoria card-text">Curioso y travieso, que siempre está explorando.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota9.jpg" alt="Perro nueve">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Coco</p>
+                                <p class="categoria card-text">Fuente constante de alegría y dulzura.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota10.jpg" alt="Perro diez">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Garfiel</p>
+                                <p class="categoria card-text">Siempre irradiando felicidad y entusiasmo.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota11.jpg" alt="Perro once">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Mia</p>
+                                <p class="categoria card-text">Reina indiscutible, elegante y con una presencia
+                                    imponente.</p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+
+                        <div class="fotoPerro">
+                            <div class="fotoSubPerro">
+                                <img src="imagenes/mascota12.jpg" alt="Perro doce">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre card-text">Milo</p>
+                                <p class="categoria card-text">Dispuesto a compartir alegría y afecto a su alrededor.
+                                </p>
+                                <button type="button" class="btnAdoptar"
+                                    onclick="mostrarVentanaEmergente()">Adoptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <section class="infoDonacion">
-            <h2>Detalles para hacer donaciones</h2>
-            <p>¡Tu ayuda es crucial para mantener el refugio en funcionamiento! Considera hacer una donación para
-                apoyarnos.</p>
-            <button type="button" class="btnDonar" onclick=" mostrarVentadaDonacion()">Donar</button>
+            <div class="marginPaddingStandar">
+                <h1 class="title card-title">DONACIONES</h1>
+                <p>¡Tu ayuda es crucial para mantener el refugio en funcionamiento! Considera hacer una donación para
+                    apoyarnos.</p>
+                <button type="button" class="btnDonar" onclick=" mostrarVentadaDonacion()">Donar</button>
+            </div>
         </section>
     </section>
 
     <!-- Footer y redes sociales -->
-    <section id="social-media">
-        <div class="container text-center"></div>
-        <h2>Encuentranos en las diferentes redes sociales</h2>
-        <div class="social-icons">
-            <a href=""><img src="./imagenes/facebook-icon.png" alt=""></a>
-            <a href=""><img src="./imagenes/instagram-icon.png" alt=""></a>
-            <a href=""><img src="./imagenes/twitter-icon.png" alt=""></a>
-            <a href=""><img src="./imagenes/whatsapp-icon.png" alt=""></a>
-            <a href=""><img src="./imagenes/linkedin-icon.png" alt=""></a>
-            <a href=""><img src="./imagenes/snapchat-icon.png" alt=""></a>
+    <section id="social-media" class="marginPaddingStandar">
+        <div class="marginPaddingStandar">
+            <h1 class="title card-title">REDES SOCIALES</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="./imagenes/facebook-icon.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./imagenes/instagram-icon.png" alt=""></a>
+                <a href="https://twitter.com/?lang=es"><img src="./imagenes/twitter-icon.png" alt=""></a>
+                <a href="https://web.whatsapp.com/"><img src="./imagenes/whatsapp-icon.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="./imagenes/linkedin-icon.png" alt=""></a>
+                <a href="https://www.snapchat.com/"><img src="./imagenes/snapchat-icon.png" alt=""></a>
+            </div>
         </div>
+
     </section>
 
-    <section id="footerMain">
+    <section id="footerMain" class="marginPaddingStandar">
+        <h1 class="title card-title">CONSULTAS Y ACLARACIONES</h1>
         <section id="footer">
-          <p class="text-center"><b>Envia tus sugerencias o dudas</b></p>
-          <div class="row">
-            <div class="col">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              <label for="exampleFormControlTextarea1" class="form-label">Ingresa tu mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <div class="row">
+                <div class="col">
+                    <p class="card-text"><b>Envía tus dudas o sugerencias</b></p>
+                    <label for="exampleFormControlInput1" class="form-label card-text">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                    <label for="exampleFormControlTextarea1" class="form-label card-text">Ingresa tu mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    <div class="btnContainer">
+                        <button type="button" class="btnStandar2 btnForm">Enviar</button>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <p class="card-text"><b>Contacto</b></p>
+                    <p class="card-text"><i class="fa fa-location-dot icones"></i>Fundacion Huellitas</p>
+                    <p class="card-text"><i class="fa fa-phone icones"></i>+503 123456</p>
+                    <p class="card-text"><i class="fa fa-envelope icones"></i>fundacionhuellitas.com</p>
+                </div>
+                <div class="col">
+                    <p class="card-text"><b>¿Sabías que?</b></p>
+                    <h5 class="card-subtitle mb-2 text-muted">"La grandeza de una nación y su progreso moral puede ser
+                        juzgado por la forma en que sus animales son tratados".
+                        (Gandhi)</h5>
+                    <div class="btnContainer">
+                        <button type="button" class="btnStandar2">Suscribete</button>
+                    </div>
+
+                </div>
             </div>
-            <div class="col">
-              <p><b>CONTACTO</b></p>
-              <p><i class="fa fa-location-dot icones"></i>Fundacion Huellitas</p>
-              <p><i class="fa fa-phone icones"></i>+503 123456</p>
-              <p><i class="fa fa-envelope icones"></i>fundacionhuellitas.com</p>
-            </div>
-            <div class="col">
-              <p><b>¿Sabías que?</b></p>
-              <h5>"La grandeza de una nación y su progreso moral puede ser juzgado por la forma en que sus animales son tratados."
-                (Gandhi)</h5>
-              <button type="button" class="btnStandar2">Suscribete</button>
-            </div>
-          </div> 
         </section>
-      </section>
-    
+    </section>
+
     <footer>
-        <div class="container">
-            <p class="float-end"><a href="#" class="containerA">Back to top</a></p>
-            <p>&copy; 2023–2024 Company, Inc. &middot; <a href="#" class="containerA">Privacy</a> &middot; <a href="#" class="containerA">Terms</a></p>
+        <div class="card-header">
+            <div class="correcionHeaderFooter">
+                <div class="pFooter1">
+                    <p class="float-end card-text textoFooterColor"><a href="#" class="containerTextoA">Back to top</a>
+                    </p>
+                </div>
+                <div class="pFooter2">
+                    <p class="card-text textoFooterColor">&copy; 2023–2024 Company, Inc. &middot; <a href="#"
+                            class="containerTextoA">Privacy</a> &middot; <a href="#" class="containerTextoA">Terms</a>
+                    </p>
+                </div>
+
+            </div>
         </div>
     </footer>
-    
+
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 
     <!-- Ventanas emergentes de formularios, que se activaran al momento de hacer click en los botones -->
     <!-- Formulario 1 de adopcion -->
