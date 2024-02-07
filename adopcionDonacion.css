@@ -146,9 +146,9 @@ body {
     padding-bottom: 70px;
 }
 
-/* .subtitulo {
-    padding-left: 20px;
-} */
+.terminosCondiciones{
+    display: flex; 
+} 
 
 .main .galePerros {
     background: #ffe8d4;
@@ -224,11 +224,10 @@ body {
     cursor: pointer;
 }
 
-.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar:active{
+.main .galePerros .contenedorAdopciones .fotoPerro .descripcion .btnAdoptar:active, .ventana-emergente button:active{
     color: #e5a4cb;
     background: #45062e;
 }
-
 
 
 /* Aplicamos estilos al detalle donaciones */

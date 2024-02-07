@@ -18,7 +18,8 @@
     <header>
         <div class="head">
             <div class="logo">
-                <a href="Inicio.html"><img src="imagenes/logo1.png" alt="logoMenu" class="logoImg">Fundación Huellitas</a>
+                <a href="Inicio.html"><img src="imagenes/logo1.png" alt="logoMenu" class="logoImg">Fundación
+                    Huellitas</a>
             </div>
             <nav class="navbar card-header">
                 <a href="Inicio.html">Inicio</a>
@@ -47,23 +48,31 @@
 
                 <div class="marginPaddingStandar correccionDivProcedimientoTexto">
 
-                    <p class="card-text ">De esta manera, se tiene los siguientes pasos para adoptar a tu nuevo amigo con nosotros: </p>
-                    
-                        <div class="listaAdopcion">
-                            <ol>
-                                <li >Explora la galería y selecciona tu perrito.</li>
-                                <li >Solicita tu formulario de adopción.</li>
-                                <li >Entrevista y encuentro con el perrito.</li>
-                                <li>Adopción final y guía de cuidado post-adopción.</li>
-                            </ol>
-                        </div>
-                    
-                    <p class="card-text">La adopción de una mascota es una elección que va más allá de solo conseguir un nuevo compañero. Es un gesto de compasión y responsabilidad que brinda a un animal desamparado la posibilidad de encontrar un hogar amoroso y seguro. Optar por adoptar no solo implica cambiar la vida de un animal, sino también contribuir a mitigar el problema de la sobrepoblación en los refugios y promover una tenencia consciente de mascotas. Es una experiencia enriquecedora que crea lazos profundos y duraderos entre la mascota y su nuevo dueño, llenos de afecto y compañerismo. Si quieres más información sobre el cuidado o sobre nosotros, presiona el botón.</p>
+                    <p class="card-text ">De esta manera, se tiene los siguientes pasos para adoptar a tu nuevo amigo
+                        con nosotros: </p>
+
+                    <div class="listaAdopcion">
+                        <ol>
+                            <li>Explora la galería y selecciona tu perrito.</li>
+                            <li>Solicita tu formulario de adopción.</li>
+                            <li>Entrevista y encuentro con el perrito.</li>
+                            <li>Adopción final y guía de cuidado post-adopción.</li>
+                        </ol>
+                    </div>
+
+                    <p class="card-text">La adopción de una mascota es una elección que va más allá de solo conseguir un
+                        nuevo compañero. Es un gesto de compasión y responsabilidad que brinda a un animal desamparado
+                        la posibilidad de encontrar un hogar amoroso y seguro. Optar por adoptar no solo implica cambiar
+                        la vida de un animal, sino también contribuir a mitigar el problema de la sobrepoblación en los
+                        refugios y promover una tenencia consciente de mascotas. Es una experiencia enriquecedora que
+                        crea lazos profundos y duraderos entre la mascota y su nuevo dueño, llenos de afecto y
+                        compañerismo. Si quieres más información sobre el cuidado o sobre nosotros, presiona el botón.
+                    </p>
                     <div class="botonURL">
                         <a href="educacionycontacto.html" class="btnStandar">EDUCACIÓN/CONTACTO</a>
                         <!-- <button type="button" class="btn btn-primary">ADOPTAME</button> -->
                     </div>
-                
+
                 </div>
             </div>
         </section>
@@ -316,7 +325,7 @@
     <div class="fondo-oscuro" id="fondoOscuro" onclick="ocultarVentanaEmergente()"></div>
     <div class="ventana-emergente" id="ventanaEmergente">
         <form onsubmit="return validarFormulario()">
-            <h3>Formulario de adopción</h3>
+            <h1 class="title card-title">Formulario de adopción</h1>
 
             <label for="nombre">Nombre Completo:</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -364,12 +373,13 @@
                 <input type="text" id="cantidad" name="cantidad">
             </div>
 
-            <div class="terminosCondiciones">
-                <label>
-                    Al aceptar los términos y condiciones de la adopción, garantizo mi compromiso de brindar un hogar
-                    amoroso y responsable a la mascota, cumpliendo con sus necesidades y velando por su bienestar a lo
-                    largo de toda su vida.
-                    <input type="checkbox" id="terminosCondiciones" required>
+            <div class="terminosCondiciones form-check">
+
+                <label for="terminosCondiciones" class="form-check-label"> <input type="checkbox"
+                        id="terminosCondiciones" required class="form-check-input" style="width: 20px;">Al aceptar los
+                    términos y condiciones de la adopción, garantizo mi compromiso de brindar un hogar amoroso y
+                    responsable a la mascota, cumpliendo con sus necesidades y velando por su bienestar a lo largo de
+                    toda su vida.
                 </label>
             </div>
 
@@ -378,11 +388,43 @@
     </div>
 
     <!-- Formulario 2 de donar -->
-    <div class="fondo-oscuro" id="fondoOscuro" onclick="ocultarVentanaEmergente()"></div>
+    <div class="fondo-oscuro" id="fondoOscuroDonar" onclick="ocultarVentanaDonacion()"></div>
     <div class="ventana-emergente" id="mostrarDonacion">
-        <h1>Cuentas Bancarias</h1>
-        <p>Realiza tu donación mediante la aplicación de tu banco, acá te dejamos nuestra informacion por cada banco.
-            PD: Todas nuestras cuentas son de ahorro.</p>
+        <h1 class="title card-title">Cuentas Bancarias</h1>
+        <p>Realiza tu donación mediante la aplicación de tu banco, acá te dejamos nuestra informacion por cada banco. PD: Todas nuestras cuentas son de ahorro.</p>
+        <div>
+            <ol class="custom-list">
+        <li>
+            <strong>Banco Fedecrédito:</strong><br>
+            <span>Nombre del Banco: Banco Fedecrédito</span><br>
+            <span>Tipo de Cuenta: Cuenta de Ahorro</span><br>
+            <span>Número de Cuenta: 0102-345678-9</span><br>
+            <span>Nombre del Titular: Juan Pérez</span>
+        </li>
+        <li>
+            <strong>Banco Cuscatlán:</strong><br>
+            <span>Nombre del Banco: Banco Cuscatlán</span><br>
+            <span>Tipo de Cuenta: Cuenta Corriente</span><br>
+            <span>Número de Cuenta: 0201-123456-7</span><br>
+            <span>Nombre del Titular: María González</span>
+        </li>
+        <li>
+            <strong>Banco Agrícola:</strong><br>
+            <span>Nombre del Banco: Banco Agrícola</span><br>
+            <span>Tipo de Cuenta: Cuenta de Ahorro</span><br>
+            <span>Número de Cuenta: 0300-987654-3</span><br>
+            <span>Nombre del Titular: Carlos López</span>
+        </li>
+        <li>
+            <strong>Banco Promérica:</strong><br>
+            <span>Nombre del Banco: Banco Promérica</span><br>
+            <span>Tipo de Cuenta: Cuenta de Cheques</span><br>
+            <span>Número de Cuenta: 0405-567890-1</span><br>
+            <span>Nombre del Titular: Ana Martínez</span>
+        </li>
+    </ol>
+        </div>
+    
     </div>
 
     <!-- Establecemos el script-->
@@ -406,7 +448,12 @@
 
         function mostrarVentadaDonacion() {
             document.getElementById('mostrarDonacion').style.display = 'block';
-            document.getElementById('fondoOscuro').style.display = 'block';
+            document.getElementById('fondoOscuroDonar').style.display = 'block';
+        }
+
+        function ocultarVentanaDonacion() {
+            document.getElementById('mostrarDonacion').style.display = 'none';
+            document.getElementById('fondoOscuroDonar').style.display = 'none';
         }
 
         function validarFormulario() {
